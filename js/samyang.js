@@ -42,13 +42,7 @@ $(function () {
         // .indexOf() - 요소의 위치를 찾는데 사용하는 메서드 (함수)
         let active = pageURL.indexOf(menuURL);
         if (active > -1) activeMenu = tg;
-        /*let active = pageURL.indexOf(menuURL);: 
-        현재 페이지의 URL에서 메뉴 아이템의 URL이 어디에 위치하는지를 active 변수에 저장
-
-        if (active > -1) activeMenu = tg;: active 변수가 
-        -1보다 크다면, 즉, 현재 페이지의 URL에서 메뉴 
-        아이템의 URL이 일치하는 경우에만 아래의 코드를 실행합니다.
-        이 경우, activeMenu 변수에 현재 메뉴 아이템을 할당*/
+      
 
 
         sub.each(function (i) {
@@ -126,7 +120,7 @@ $(function () {
         updateIndicatorsProduct(index);
     }
     // updateIndicatorsProduct 함수를 호출하여 인디케이터 업데이트
-    // index는 현재 보여지고있는 슬라이드임
+   
 
     // 슬라이드업데이트 함수
     function updateIndicatorsProduct(index) {
